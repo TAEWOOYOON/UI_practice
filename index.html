@@ -5,11 +5,12 @@
         <title>main page</title>
         <link href="css/reset.css" rel="stylesheet"/>
         <link href="css/TV_style.css" rel="stylesheet"/>
-        
+    <script src = "js/TV_script.js"></script>
         
     </head>
     
     <body>
+        
         <div class = "bkg"></div>
         
         <div class = "title">
@@ -22,31 +23,55 @@
                 즐거운 한가위 되세요!</div>
         </div>
         
+        <div class = 'bottons'>
+            <button class = 'bt' id = 'start_button_all'>전체</button>
+            <button class = 'bt' id = 'start_button_EBS'>EBS</button>
+            <button class = 'bt' id = 'start_button_MBC'>MBC</button>
+            <button class = 'bt' id = 'start_button_KBS'>KBS</button>
+            <button class = 'bt' id = 'start_button_SBS'>SBS</button>
+            <button class = 'bt' id = 'start_button_TBC'>TBC</button>
+            <button class = 'bt' id = 'start_button_JTBC'>JTBC</button>
+            <button class = 'bt' id = 'start_button_YTN'>YTN</button>
+            <button class = 'bt' id = 'start_button_OCN'>OCN</button>
+            <button class = 'bt' id = 'start_button_channelA'>채널A</button>
+        </div>
 
-        <table class="table_01">
+        <div class = "choice">방송사를 선택해 주세요</div>
+
+        
+        <div class = 'result_all'>
+            <table>
             <thead>
-            
+
               <tr>
-                  <td class="tg"><button class = 'start_button'>전체</button></td>
-                  <td class="tg"><button class = 'start_button'>EBS</button></td>
-                  <td class="tg"><button class = 'start_button'>MBC</button></td>
-                  <td class="tg"><button class = 'start_button'>KBS</button></td>
-                  <td class="tg"><button class = 'start_button'>SBS</button></td>
-                  <td class="tg"><button class = 'start_button'>TBC</button></td>
-                  <td class="tg"><button class = 'start_button'>JTBC</button></td>
-                  <td class="tg"><button class = 'start_button'>YTN</button></td>
-                  <td class="tg"><button class = 'start_button'>OCN</button></td>
-                  <td class="tg"><button class = 'start_button'>채널A</button></td>
+                  <td class="t">시간</td>
+                  <td class="t">EBS</td>
+                  <td class="t">MBC</td>
+                  <td class="t">KBS</td>
+                  <td class="t">SBS</td>
+                  <td class="t">TBC</td>
+                  <td class="t">JTBC</td>
+                  <td class="t">YTN</td>
+                  <td class="t">OCN</td>
+                  <td class="t">채널A</td>
               </tr>
             </thead>
             </table>
 
-            
-            
+        </div>
+
+        <div class = 'result_EBS'>
+            <table>
+            <thead>
+
+              <tr>
+                  <td class="t">시간</td>
+                  <td class="t">EBS</td>
+              </tr>
+            </thead>
+            </table>
+
+        </div>
         
-
-        <div class = "coment"></div>
-
-        <div class = "list02"></div>
     </body>
 </html>
