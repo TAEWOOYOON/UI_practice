@@ -147,3 +147,45 @@ html, body{
     position : relative;
     flex-direction: column;
 }
+
+.result_SBS{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
+
+.result_TBC{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
+
+.result_JTBC{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
+
+.result_YTN{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
+
+.result_OCN{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
+
+.result_channelA{
+    display : none;
+    align-items: center;
+    position : relative;
+    flex-direction: column;
+}
