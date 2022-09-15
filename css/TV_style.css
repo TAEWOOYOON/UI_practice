@@ -38,7 +38,7 @@ html, body{
     text-align: center;
     font-weight : bold;
     font-family: 'JSongMyung-Regular-KO';
-    font-size: 100px;
+    font-size: 70px;
     margin-top: 30px;
 }
 
@@ -57,7 +57,7 @@ html, body{
 
 .subtitle .coment{
     font-family: 'JSongMyung-Regular-KO';
-    font-size : 60px;
+    font-size : 55px;
     position : relative;
     color : darkgoldenrod;
     text-align: center;
@@ -66,11 +66,11 @@ html, body{
 }
 
 .bt{
-	width:200px;
-	height: 50px;
+	width:140px;
+    font-family: 'BinggraeSamanco-Bold';
+	height: 73px;
 	color: white;
-	background: #353535;
-	font-size: 30px;
+	font-size: 27px;
 	border: 3px;
     border-color : black;
     background-color: #dcb088;
@@ -78,7 +78,9 @@ html, body{
     position: relative;
     font-weight: bold;
     text-align: center;
-    left: 29%;
+    left : 35%;
+    right: auto;
+    vertical-align: middle;
 }
 
 .bt:hover{
@@ -110,39 +112,128 @@ html, body{
     flex-direction: column;
     left: 37%;
     right: auto;
+}
+.result_drama{
+    border: 1px solid gray;
+    display: none;
+    position : absolute;
+    text-align: center;
+    flex-direction: column;
+    left: 37%;
+    right: auto;
+}
     
-
+.result_ent{
+    border: 1px solid gray;
+    display: none;
+    position : absolute;
+    text-align: center;
+    flex-direction: column;
+    left: 37%;
+    right: auto;
+}
+.result_the{
+    border: 1px solid gray;
+    display: none;
+    position : absolute;
+    text-align: center;
+    flex-direction: column;
+    left: 32%;
+    right: auto;
 }
 .tg_04{
-    font-size : 28px;
+    font-size : 25px;
     font-family: 'BinggraeSamanco-Bold';
     background-color: antiquewhite;
     text-align: center;
     width: 100px;
-    height: 50px;
+    height: 55px;
+    vertical-align: middle;
 }
 
 .tg_03{
-    font-size : 20px;
+    font-size : 23px;
     font-family: 'BinggraeSamanco-Bold';
     background-color: #efefef;
-    width: 100px;
-    height: 50px;    
+    width: 110px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .tg_02{
-    font-size : 20px;
+    font-size : 23px;
     font-family: 'BinggraeSamanco-Bold';
     background-color: #efefef;
-    width: 100px;
-    height: 50px;
+    width: 110px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
 }
 .tg_01{
-    font-size : 20px;
+    font-size : 23px;
     font-family: 'BinggraeSamanco-Bold';
     background-color: whitesmoke;
-    width: 200px;
-    height: 50px;
+    width: 210px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
 }
 
+.tg_11{
+    font-size : 23px;
+    font-family: 'BinggraeSamanco-Bold';
+    background-color: whitesmoke;
+    width: 210px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+}
 
+.tg_12{
+    font-size : 23px;
+    font-family: 'BinggraeSamanco-Bold';
+    background-color: whitesmoke;
+    width: 210px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tg_13{
+    font-size : 23px;
+    font-family: 'BinggraeSamanco-Bold';
+    background-color: whitesmoke;
+    width: 210px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tg_00{
+    font-size : 23px;
+    font-family: 'BinggraeSamanco-Bold';
+    background-color: wheat;
+    width: 210px;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tg_date{
+    font-size : 23px;
+    font-family: 'BinggraeSamanco-Bold';
+    background-color: wheat;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blank{
+    height: 20px;
+}
+
+.fa-solid fa-tv-retro{
+    position: absolute;
+}

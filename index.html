@@ -5,7 +5,8 @@
         <title>main page</title>
         <link href="css/reset.css" rel="stylesheet"/>
         <link href="css/TV_style.css" rel="stylesheet"/>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     </head>
     
     <body>
@@ -23,10 +24,14 @@
         </div>
         
          <div class = 'bottons'>
-            <button class = 'bt' id = 'button_movie'>영화</button>
-            <button class = 'bt' id = 'button_drama'>드라마</button>
-            <button class = 'bt' id = 'button_ent'>예능</button>
-            <button class = 'bt' id = 'button_the'>극장 상영작</button>
+            <button class = 'bt' id = 'button_movie'>
+                <i class="fa-solid fa-film"></i><p>영화</p></button>
+            <button class = 'bt' id = 'button_drama'>
+                <i class="fa-sharp fa-solid fa-tv"></i><p>드라마</p></button>
+            <button class = 'bt' id = 'button_ent'>
+                <i class="fa-regular fa-face-smile"></i><p>예능</p></button>
+            <button class = 'bt' id = 'button_the'>
+                <i class="fa-solid fa-video"></i><p>극장 상영작</p></button>
 
         </div>
             
@@ -38,7 +43,7 @@
         <table class="result_movie">
         <thead>
           <tr>
-            <th class="tg_04" rowspan="6"><br><br>9월 7일</th>
+            <th class="tg_04" rowspan="6"><br><br><br><br>9월 7일</th>
             <th class="tg_03">18:00</th>
             <th class="tg_02">MBC</th>
             <th class="tg_01">밀정</th>
@@ -139,107 +144,291 @@
           </tr>
         </tbody>
         </table>
-
-
-        <div class = 'drama'>
-            <table>
-            <thead>
-
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">EBS</td>
-              </tr>
-            </thead>
-            </table></div>
-        <div class = 'result_MBC'>
-            <table>
-            <thead>
-
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">MBC</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_KBS'>
-            <table>
-            <thead>
-
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">KBS</td>
-              </tr>
-            </thead>
-            </table></div>
-            
         
-        <div class = 'result_SBS'>
-            <table>
-            <thead>
+        <table class="result_drama">
+        <thead>
+          <tr>
+            <th class="tg_04" rowspan="6"><br><br>9월 7일</th>
+            <th class="tg_03">19:00</th>
+            <th class="tg_02">MBC</th>
+            <th class="tg_01">너는 내 운명</th>
+          </tr>
+          <tr>
+            <th class="tg_03">19:00</th>
+            <th class="tg_02">KBS</th>
+            <th class="tg_01">금쪽 같은 내 새끼</th>
+          </tr>
+          <tr>
+            <th class="tg_03">20:00</th>
+            <th class="tg_02">SBS</th>
+            <th class="tg_01">칠공주</th>
+          </tr>
+          <tr>
+            <th class="tg_03">22:00</th>
+            <th class="tg_02">MBC</th>
+            <th class="tg_01">홍길동</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg_04" rowspan="7"><br><br><br><br><br>9월 8일</td>
+            <td class="tg_03">19:00</td>
+            <td class="tg_02">tvN</td>
+            <td class="tg_01">화야</td>
+          </tr>
+          <tr>
+            <td class="tg_03">19:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">너는 내 운명</td>
+          </tr>
+          <tr>
+            <td class="tg_03">19:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">금쪽 같은 내 새끼</td>
+          </tr>
+          <tr>
+            <td class="tg_03">20:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">칠공주</td>
+          </tr>
+          <tr>
+            <td class="tg_03">21:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">대조영</td>
+          </tr>
+          <tr>
+            <td class="tg_03">21:00</td>
+            <td class="tg_02">tvN</td>
+            <td class="tg_01">나쁜녀석들</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">JTBC</td>
+            <td class="tg_01">환혼</td>
+          </tr>
+         
+          <tr>
+            <td class="tg_04" rowspan="8"><br><br><br><br>9월 9일</td>
+            <td class="tg_03">18:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">허준</td>
+          </tr>
+          <tr>
+            <td class="tg_03">19:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">야인시대</td>
+          </tr>
+          <tr>
+            <td class="tg_03">20:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">주몽</td>
+          </tr>
+          <tr>
+            <td class="tg_03">21:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">불멸의 이순신 1부</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">불멸의 이순신 2부</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">킹덤</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">tvN</td>
+            <td class="tg_01">수리남</td>
+          </tr>
+          <tr>
+            <td class="tg_03">23:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">이상한 변호사 우영우</td>
+          </tr>
+        </tbody>
+        </table>
 
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">SBS</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_TBC'>
-            <table>
-            <thead>
 
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">TBC</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_JTBC'>
-            <table>
-            <thead>
+        <table class="result_ent">
+        <thead>
+          <tr>
+            <th class="tg_04" rowspan="6"><br><br>9월 7일</th>
+            <th class="tg_03">18:00</th>
+            <th class="tg_02">MBC</th>
+            <th class="tg_01">무한도전</th>
+          </tr>
+          <tr>
+            <th class="tg_03">18:00</th>
+            <th class="tg_02">TBC</th>
+            <th class="tg_01">아침마당</th>
+          </tr>
+          <tr>
+            <th class="tg_03">20:00</th>
+            <th class="tg_02">SBS</th>
+            <th class="tg_01">런닝맨</th>
+          </tr>
+          <tr>
+            <th class="tg_03">22:00</th>
+            <th class="tg_02">KBS</th>
+            <th class="tg_01">놀러와</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg_04" rowspan="7"><br><br><br><br><br>9월 8일</td>
+            <td class="tg_03">18:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">천하통일</td>
+          </tr>
+          <tr>
+            <td class="tg_03">18:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">X맨</td>
+          </tr>
+          <tr>
+            <td class="tg_03">18:30</td>
+            <td class="tg_02">JTBC</td>
+            <td class="tg_01">미녀들의 수다</td>
+          </tr>
+          <tr>
+            <td class="tg_03">20:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">무한도전</td>
+          </tr>
+          <tr>
+            <td class="tg_03">20:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">1박2일</td>
+          </tr>
+          <tr>
+            <td class="tg_03">21:50</td>
+            <td class="tg_02">SPOTV</td>
+            <td class="tg_01">박지성 특집</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">JTBC</td>
+            <td class="tg_01">불타는 금요일</td>
+          </tr>
+         
+          <tr>
+            <td class="tg_04" rowspan="8"><br><br><br><br>9월 9일</td>
+            <td class="tg_03">11:00</td>
+            <td class="tg_02">KBS</td>
+            <td class="tg_01">전국 노래자랑</td>
+          </tr>
+          <tr>
+            <td class="tg_03">12:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">런닝맨</td>
+          </tr>
+          <tr>
+            <td class="tg_03">14:00</td>
+            <td class="tg_02">OCN</td>
+            <td class="tg_01">거니의 영화리뷰</td>
+          </tr>
+          <tr>
+            <td class="tg_03">17:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">무한도전(재)</td>
+          </tr>
+          <tr>
+            <td class="tg_03">18:00</td>
+            <td class="tg_02">SPOTV</td>
+            <td class="tg_01">손흥민 특집</td>
+          </tr>
+          <tr>
+            <td class="tg_03">19:00</td>
+            <td class="tg_02">SBS</td>
+            <td class="tg_01">X맨</td>
+          </tr>
+          <tr>
+            <td class="tg_03">20:00</td>
+            <td class="tg_02">tvN</td>
+            <td class="tg_01">연애 플레이리스트</td>
+          </tr>
+          <tr>
+            <td class="tg_03">22:00</td>
+            <td class="tg_02">MBC</td>
+            <td class="tg_01">놀면 뭐하니?</td>
+          </tr>
+        </tbody>
+        </table>
+        
+        <table class="result_the">
+        <thead>
+            <tr>
+                <th class = tg_date>날짜</th>
+            <th class="tg_00">CGV</th>
+            <th class="tg_00">메가박스</th>
+            <th class="tg_00">롯데시네마</th>
+            </tr>
+          <tr>
+            <th class="tg_04" rowspan="4">9월 7일</th>
+          </tr>
+          <tr>
+            <th class="tg_11">봉오동 전투</th>
+            <th class="tg_12">짱구는 못말려 극장판</th>
+            <th class="tg_13">코난 극장판</th>
+          </tr>
+          <tr>
+            <th class="tg_11">살인의 추억</th>
+            <th class="tg_12">탑건 메버릭</th>
+            <th class="tg_13">암살</th>
+          </tr>
+          <tr>
+            <th class="tg_11">범죄도시 1</th>
+            <th class="tg_12">헌터</th>
+            <th class="tg_13">헤어질 결심</th>
+          </tr>
+            <tr><th class = 'blank'></th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg_04" rowspan="4">9월 8일</td>
+          </tr>
 
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">JTBC</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_YTN'>
-            <table>
-            <thead>
+          <tr>
+            <td class="tg_11">공조 1</td>
+            <td class="tg_12">블랙폰</td>
+            <td class="tg_13">오! 마이 고스트</td>
+          </tr>
+          <tr>
+            <td class="tg_11">카고</td>
+            <td class="tg_12">한산 : 용의 출현</td>
+            <td class="tg_13">홈리스</td>
+          </tr>
+          <tr>
+            <td class="tg_11">공조 2</td>
+            <td class="tg_12">범죄도시 2</td>
+            <td class="tg_13">범죄와의 전쟁</td>
+          </tr>
+          <tr><th class = 'blank'></th></tr>
+          <tr>
+            <td class="tg_04" rowspan="4">9월 9일</td>
+          </tr>
+          <tr>
+            <td class="tg_11">귀멸의 칼날</td>
+            <td class="tg_12">모가디슈</td>
+            <td class="tg_13">알라딘</td>
+          </tr>
+          <tr>
+            <td class="tg_11">인생은 뷰티풀</td>
+            <td class="tg_12">다 잘된 거야</td>
+            <td class="tg_13">한여름밤의 꿈</td>
+          </tr>
+          <tr>
+            <td class="tg_11">닌자 거북이 극장판</td>
+            <td class="tg_12">말아톤</td>
+            <td class="tg_13">비스트</td>
+          </tr>
+          
+        </tbody>
+        </table>
 
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">YTN</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_OCN'>
-            <table>
-            <thead>
-
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">OCN</td>
-              </tr>
-            </thead>
-            </table></div>
-            
-        <div class = 'result_channelA'>
-            <table>
-            <thead>
-
-              <tr>
-                  <td class="t">시간</td>
-                  <td class="t">채널A</td>
-              </tr>
-            </thead>
-            </table>
-        </div>
             
         <script type = text/javascript src = "js/TV_script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
